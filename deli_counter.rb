@@ -23,7 +23,7 @@ def now_serving
   if katz_deli.empty?
     puts "The line is currently empty."
   else 
-    puts "Currently serving #{katz_deli.length}"
+    puts "Currently serving #{katz_deli.first}"
     katz_deli.shift
   end 
 end 
